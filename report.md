@@ -15,8 +15,8 @@
 
 В процессе тестирования использовались следующие артефакты:
 * Инструкция по установке OpenJDK 11
-*Руководство использования KeyValidator
-*файл KeyValidator.class
+* Руководство использования KeyValidator
+* файл KeyValidator.class
 
 1.1 Тестирование инструкции.
 В качестве тестовых данных использовались данные https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows
@@ -30,7 +30,7 @@ OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)*
 
 1.2 Тестирование запуска приложения и его совместимости с Java11.
 
-* 1. скачать файл KeyValidator https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class
+ 1. скачать файл KeyValidator https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class
 2. Открыть командную строку.
 3. Указать путь до файла.
 4. Выполнить команду 
