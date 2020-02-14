@@ -2,7 +2,7 @@
 
 ## Краткое описание
 
-11.02.2020- 11.02.2020 было проведено тестирование инструкции по установке, запуску приложения и его работе согласно руководству использования .
+14.02.2020 было проведено тестирование инструкции по установке, запуску приложения и его работе согласно руководству использования .
 
 На тестирование затрачено: 1 час
 
@@ -13,14 +13,21 @@
 
 ## Описание процесса тестирования
 
-В процессе тестирования использовались следующие артефакты:
+Что тестировалось:
 * Инструкция по установке OpenJDK 11
 * Руководство использования KeyValidator
-* файл KeyValidator.class
+* Совместимость приложения с Java11
+### В процессе тестирования использовались следующие артефакты:
+* тест-план, описанный в [легенде](https://github.com/netology-code/javaqa-homeworks/tree/master/intro#%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0);
+* тест-сьют, состоящий из двух тест-кейсов: 
+    * проверка валидных ключей (позитивный сценарий);
+    * проверка невалидных ключей (негативный сценарий);
+* баг-репорты;
+* данный отчет о тестировании.
 
-1.1 Тестирование инструкции.
-В качестве тестовых данных использовались данные https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows
-* 1. Установить OpenJDK11, следуя шагам в инструкции https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows
+### 1.1 Тестирование инструкции.
+В качестве тестовых данных использовались [данные](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows)
+* 1. Установить OpenJDK11, следуя шагам в [инструкции](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows)
 2. Выполнить команду cmd,нажав Win+R
 3. В командной строке набрать java -version
 Ожидаемый результат:
@@ -28,9 +35,9 @@
 OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.5+10)
 OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)*
 
-1.2 Тестирование запуска приложения и его совместимости с Java11.
+### 1.2 Тестирование запуска приложения и его совместимости с Java11.
 
- 1. скачать файл KeyValidator https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class
+ 1. скачать файл [KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class)
 2. Открыть командную строку.
 3. Указать путь до файла.
 4. Выполнить команду 
@@ -40,7 +47,7 @@ java KeyValidator 00000000-0000-0000-0000-000000000000 00000000-0000-0000-0000-0
 Приложение запускается и выводит результат проверки ключа в формате Result for 00000000-0000-0000-0000-000000000000: OK
 Result for 00000000-0000-0000-0000-000000000001: FAIL
 
-1.3 Проверка руководства пользования приложением.
+### 1.3 Проверка руководства пользования приложением.
  1.Открыть 
 https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md
 2. выполнить указанные шаги по запуску приложения.
@@ -52,4 +59,4 @@ https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.
 Тестирование производилось в следующем окружении:
 * windows 10 x64
 * Java 11
-* терминал git bash
+* терминал git bash version 2.25.0.windows.1
