@@ -27,7 +27,7 @@
 
 ### 1.1 Тестирование инструкции.
 В качестве тестовых данных использовались [данные](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows)
-* 1. Установить OpenJDK11, следуя шагам в [инструкции](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows)
+ 1. Установить OpenJDK11, следуя шагам в [инструкции](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/openjdk11-manual.md#windows)
 2. Выполнить команду cmd,нажав Win+R
 3. В командной строке набрать java -version
 Ожидаемый результат:
@@ -37,7 +37,7 @@ OpenJDK 64-Bit Server VM AdoptOpenJDK (build 11.0.5+10, mixed mode)*
 
 ### 1.2 Тестирование запуска приложения и его совместимости с Java11.
 
- 1. скачать файл [KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class)
+1. скачать файл [KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/artifacts/KeyValidator.class)
 2. Открыть командную строку.
 3. Указать путь до файла.
 4. Выполнить команду 
@@ -48,10 +48,9 @@ java KeyValidator 00000000-0000-0000-0000-000000000000 00000000-0000-0000-0000-0
 Result for 00000000-0000-0000-0000-000000000001: FAIL
 
 ### 1.3 Проверка руководства пользования приложением.
-  1.Открыть 
-https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md
-
- 2. выполнить указанные шаги по запуску приложения.
+  1.Открыть [руководство по использованию](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
+  
+  2.Выполнить указанные шаги по запуску приложения.
 
 
 Ожидаемый результат:
