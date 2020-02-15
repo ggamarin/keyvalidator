@@ -48,7 +48,7 @@ java KeyValidator 00000000-0000-0000-0000-000000000000 00000000-0000-0000-0000-0
 Result for 00000000-0000-0000-0000-000000000001: FAIL
 
 ### 1.3 Проверка руководства пользования приложением.
-  1.Открыть [руководство по использованию](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
+  1.Открыть [руководство по использованию KeyValidator](https://github.com/netology-code/javaqa-homeworks/blob/master/intro/user-manual.md)
   
   2.Выполнить указанные шаги по запуску приложения.
 
